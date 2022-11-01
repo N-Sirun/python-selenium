@@ -20,8 +20,10 @@ WebDriver BiDi listening on ws://127.0.0.1:53517
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\NARINE~1\\AppData\\Local\\Temp\\rust_mozprofile1Dxwt5\\search.json.mozlz4", (void 0)))
 DevTools listening on ws://127.0.0.1:53517/devtools/browser/bfec0ad3-5c59-4ea0-8545-87da0f4d8714
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://automationpractice.com."
-1667300519725	geckodriver	INFO	Listening on 127.0.0.1:53858
-1667300522768	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53859" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\NARINE~1\\AppData\\Local\\Temp\\rust_mozprofileUpUF0l"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1667304966376	Marionette	INFO	Stopped listening on port 53528
+[Parent 20920, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+Temp\\rust_mozprofileUpUF0l"
 1667300523063	Marionette	INFO	Marionette enabled
 1667300523067	Marionette	INFO	Listening on port 53870
 Read port: 53870
