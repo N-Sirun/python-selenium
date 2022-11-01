@@ -47,7 +47,7 @@ class MySignUpTest():
         driver.find_element(By.XPATH, "//input[@id='phone_mobile']").send_keys("618-674-5426")
         time.sleep(3)
         driver.find_element(By.XPATH, "//span[normalize-space()='Register']").click()
-        time.sleep(3)
+        time.sleep(4)
 
 createacc=MySignUpTest()
 createacc.new_signup()
