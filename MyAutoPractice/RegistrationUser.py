@@ -1,9 +1,9 @@
 import time
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
-#from webdriver_manager.firefox import GeckoDriverManager
+from webdriver_manager.firefox import GeckoDriverManager
 from selenium.webdriver.common.by import By
-#from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.select import Select
 
 class MySignUpTest():
@@ -13,7 +13,7 @@ class MySignUpTest():
         driver.maximize_window()
         driver.find_element(By.XPATH, "//a[normalize-space()='Sign in']").click()
         time.sleep(2)
-        driver.find_element(By.XPATH, "//input[@id='email_create']").send_keys("marinaserdtseva@arasempire.com")
+        driver.find_element(By.XPATH, "//input[@id='email_create']").send_keys("skillerzpk10@luddo.me")
         driver.find_element(By.XPATH, "//span[normalize-space()='Create an account']").click()
         time.sleep(3)
         driver.find_element(By.ID, "id_gender1").click()
@@ -47,7 +47,7 @@ class MySignUpTest():
         driver.find_element(By.XPATH, "//input[@id='phone_mobile']").send_keys("618-674-5426")
         time.sleep(3)
         driver.find_element(By.XPATH, "//span[normalize-space()='Register']").click()
-        time.sleep(4)
+        time.sleep(3)
 
 createacc=MySignUpTest()
 createacc.new_signup()
