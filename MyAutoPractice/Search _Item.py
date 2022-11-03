@@ -24,5 +24,7 @@ class MySearchtest():
         driver.find_element(By.XPATH, "//span[@id='our_price_display']").is_displayed()
         time.sleep(2)
         print("Tested Successfully. Found the Printed dress and navigated to its page.")
+
+
 partialsearch = MySearchtest()
 partialsearch.new_search()
