@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0df63da3-6e3a-498f-b15e-7ddeb4643cd6" name="Changes" comment="addtocart test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProceedToCheckout.py" beforeDir="false" afterPath="$PROJECT_DIR$/ProceedToCheckout.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
