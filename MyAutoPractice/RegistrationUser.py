@@ -13,7 +13,7 @@ class MySignUpTest():
         driver.maximize_window()
         driver.find_element(By.XPATH, "//a[normalize-space()='Sign in']").click()
         time.sleep(2)
-        driver.find_element(By.XPATH, "//input[@id='email_create']").send_keys("skillerzpk10@luddo.me")
+        driver.find_element(By.XPATH, "//input[@id='email_create']").send_keys("skillehuhk10@luddo.me")
         driver.find_element(By.XPATH, "//span[normalize-space()='Create an account']").click()
         time.sleep(3)
         driver.find_element(By.ID, "id_gender1").click()

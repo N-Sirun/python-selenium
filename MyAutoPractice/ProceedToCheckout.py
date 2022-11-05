@@ -39,6 +39,7 @@ class MyCheckout():
         time.sleep(4)
         first_item = driver.find_element(By.XPATH, "//div//tr[1][@id='product_6_31_0_0']").is_displayed()
         second_item = driver.find_element(By.XPATH, "//div//tr[2][@id='product_7_37_0_0']").is_displayed()
+
         if first_item and second_item:
             print("Items added to cart")
         time.sleep(2)
